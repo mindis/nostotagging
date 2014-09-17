@@ -74,6 +74,7 @@ class NostoTaggingAnalytics
 	/**
 	 * Tracks a page view.
 	 *
+	 * @return bool
 	 * @link https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide#page
 	 */
 	public static function trackPageView()
